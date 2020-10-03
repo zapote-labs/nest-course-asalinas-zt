@@ -34,6 +34,12 @@ let TasksService = class TasksService {
     deleteTask(id) {
         this.tasks = this.tasks.filter(task => task.id !== id);
     }
+    updateTaskStatus(id, status) {
+        const task = this.getTaskById(id);
+        task.status = status;
+        console.log('Hola1');
+        return task;
+    }
 };
 TasksService = __decorate([
     common_1.Injectable()
