@@ -1157,18 +1157,23 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/task.model.ts": {
-        "version": "527ddb981554e8d7218c95ddc4e819af46f4403fe97591d83d8f322ebd40d989",
+        "version": "ccf581af8cea3b57411b82cfa830ad53b2952a8a5393c5e4806fc18e5ef1b547",
         "signature": "1f1972745fd56e4323782ccdc86730f1ae6b07fc29012c7c2a2872104f6d6fca",
         "affectsGlobalScope": false
       },
+      "../src/tasks/dto/create-task.dto.ts": {
+        "version": "b5265c691bbba95b6821ebf527c4c09b944230d7087234605fe7cea69b6b20a3",
+        "signature": "b1d26f03607e121c7317f85d8725d2562ea98694c85f768a3db85be2488756e3",
+        "affectsGlobalScope": false
+      },
       "../src/tasks/tasks.service.ts": {
-        "version": "0d48d500eb526f3303231dc7e73905674336d5d6d6a212088edfda19a0da5324",
-        "signature": "a0d2ac7b0b8df11b5c7ca216367dcb8de2a3f32587234d317453758a0de163dd",
+        "version": "3633293f929ce3b3962a3384f67139b407bf298020ecc2c24e35a09a0f272ef6",
+        "signature": "26f33d08ca27c775d59ba5c2d94bfb74a706e8602b05dcca89cf4709ae47b5b8",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "9d507e76b7fbd95ed287d93fb12733f7fa7b2501ccc97e1a7851a548467c52a7",
-        "signature": "29ed76d4ea8483ac7c81bded6562563c62a2f056f985df7c2e2e3c168691d160",
+        "version": "51fcc7e6ac5b94a35b212cc99a15646e37772659e453bbb9b2ad8c177529a59e",
+        "signature": "f547f42d84e2518a3470100508c58faf03e5d4fa3100cd63aabe916811892910",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.module.ts": {
@@ -3050,6 +3055,7 @@
       ],
       "../src/tasks/tasks.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../src/tasks/dto/create-task.dto.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/tasks.service.ts"
       ],
@@ -3060,6 +3066,7 @@
       ],
       "../src/tasks/tasks.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../src/tasks/dto/create-task.dto.ts",
         "../src/tasks/task.model.ts"
       ]
     },
@@ -4243,10 +4250,12 @@
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../src/tasks/tasks.controller.ts": [
+        "../src/tasks/dto/create-task.dto.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/tasks.service.ts"
       ],
       "../src/tasks/tasks.service.ts": [
+        "../src/tasks/dto/create-task.dto.ts",
         "../src/tasks/task.model.ts"
       ]
     },
