@@ -1787,12 +1787,17 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "e7830fe5e178ee3c76aa9c131951d03197ca77b93a6b7a9ca2931808949a99e4",
+        "version": "814d61e15013cb5736dcb10910e475738dc748349c62426d1b51c0c056712619",
         "signature": "84c85c2ad1c4f875b5fb0958ed4ce7bf087cce019071202121c3a80124d6aabe",
         "affectsGlobalScope": false
       },
+      "../src/tasks/pipes/task-status-validation.pipe.ts": {
+        "version": "785b7093903e1d7037bb62dd071f1d8a09e7024183e6942e9c5b5c9167f4cd33",
+        "signature": "54ea8387085669f586c95153e9ebc3b933c2832b4117ec2760b5ccd1d76efbac",
+        "affectsGlobalScope": false
+      },
       "../src/tasks/tasks.controller.ts": {
-        "version": "05ef760c6954ad0d99d12fabfb3168fabeb4d97eb564a197c3e98aa7810d0815",
+        "version": "365536bc34d3070e2045d1f7609813323efa6515541c8a54dc88533bda1514ff",
         "signature": "fe0fe9099f18f9697f9e73a124084e792f7fb5222a7fd722efd6ffc53df2c937",
         "affectsGlobalScope": false
       },
@@ -4165,10 +4170,15 @@
       "../src/tasks/dto/get-tasks-filter.dto.ts": [
         "../src/tasks/task.model.ts"
       ],
+      "../src/tasks/pipes/task-status-validation.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/tasks/task.model.ts"
+      ],
       "../src/tasks/tasks.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/tasks/dto/create-task.dto.ts",
         "../src/tasks/dto/get-tasks-filter.dto.ts",
+        "../src/tasks/pipes/task-status-validation.pipe.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/tasks.service.ts"
       ],
@@ -5850,6 +5860,10 @@
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../src/tasks/dto/get-tasks-filter.dto.ts": [
+        "../src/tasks/task.model.ts"
+      ],
+      "../src/tasks/pipes/task-status-validation.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
         "../src/tasks/task.model.ts"
       ],
       "../src/tasks/tasks.controller.ts": [

@@ -48,7 +48,8 @@ let TasksService = class TasksService {
         return task;
     }
     deleteTask(id) {
-        this.tasks = this.tasks.filter(task => task.id !== id);
+        const found = this.getTaskById(id);
+        this.tasks = this.tasks.filter(task => task.id !== found.id);
     }
     updateTaskStatus(id, status) {
         const task = this.getTaskById(id);
