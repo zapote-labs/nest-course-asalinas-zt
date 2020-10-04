@@ -1782,7 +1782,7 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/dto/get-tasks-filter.dto.ts": {
-        "version": "132b46680190245e37975fcc47cd647db52ae44dcf995de57649798256932dd1",
+        "version": "2001214f031817ba92871717d0bff6b14aba54339ca4543ad63f2667cd9fae1f",
         "signature": "babbc599b1c24e865b7251af5a49304afb9f6151ed4a9a78138dabe5f7ed06c6",
         "affectsGlobalScope": false
       },
@@ -1797,7 +1797,7 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "365536bc34d3070e2045d1f7609813323efa6515541c8a54dc88533bda1514ff",
+        "version": "b8bc9d7a1d117a5520c34234c5bde643077a93e881374d15b7614374cdb10392",
         "signature": "fe0fe9099f18f9697f9e73a124084e792f7fb5222a7fd722efd6ffc53df2c937",
         "affectsGlobalScope": false
       },
@@ -4168,6 +4168,7 @@
         "../node_modules/class-validator/types/index.d.ts"
       ],
       "../src/tasks/dto/get-tasks-filter.dto.ts": [
+        "../node_modules/class-validator/types/index.d.ts",
         "../src/tasks/task.model.ts"
       ],
       "../src/tasks/pipes/task-status-validation.pipe.ts": [
