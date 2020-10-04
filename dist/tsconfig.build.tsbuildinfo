@@ -1787,7 +1787,7 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "01fc2aec9d83ad390184fe06bd48a635070fab077b981b280e8edbd1df983c27",
+        "version": "e7830fe5e178ee3c76aa9c131951d03197ca77b93a6b7a9ca2931808949a99e4",
         "signature": "84c85c2ad1c4f875b5fb0958ed4ce7bf087cce019071202121c3a80124d6aabe",
         "affectsGlobalScope": false
       },
