@@ -1792,7 +1792,7 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/pipes/task-status-validation.pipe.ts": {
-        "version": "785b7093903e1d7037bb62dd071f1d8a09e7024183e6942e9c5b5c9167f4cd33",
+        "version": "a5db1c3a1f8c72b77ec46384f52dc92ff467228796d62bddc33ca5b108e1b36a",
         "signature": "54ea8387085669f586c95153e9ebc3b933c2832b4117ec2760b5ccd1d76efbac",
         "affectsGlobalScope": false
       },
