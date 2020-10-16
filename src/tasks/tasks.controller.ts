@@ -2,14 +2,14 @@ import { Controller, Get, Post, Body, Param, Delete, Patch, Query, UsePipes, Val
 
 import { TasksService } from './tasks.service';
 import { Task } from './task.entity';
+import { TaskStatusValidationPipe } from './pipes/task-status-validation.pipe';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { GetTasksFilterDto } from './dto/get-tasks-filter.dto';
-import { TaskStatusValidationPipe } from './pipes/task-status-validation.pipe';
 import { TaskStatus } from './task-status.enum';
 
 @Controller('tasks')
 export class TasksController {
-  constructor(private tasksService: TasksService){}
+  constructor(private tasksService: TasksService) { }
   
   @Get('/:id')
 	getTaskById(@Param('id', ParseIntPipe) id: number): Promise<Task> {

@@ -24,7 +24,6 @@ export class TasksService {
     if(!found){
       throw new NotFoundException(`Task with ID "${id}" not found`);
     }
-
     return found;
   }
 
