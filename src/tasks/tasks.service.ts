@@ -12,7 +12,7 @@ export class TasksService {
   constructor(
     @InjectRepository(TaskRepository)
     private taskRepository: TaskRepository,
-  ){}
+  ){ }
 
   async getTasks(filterDto: GetTasksFilterDto): Promise<Task[]> {
     return this.taskRepository.getTasks(filterDto);
@@ -24,6 +24,7 @@ export class TasksService {
     if(!found){
       throw new NotFoundException(`Task with ID "${id}" not found`);
     }
+
     return found;
   }
 
@@ -34,7 +35,7 @@ export class TasksService {
   async deleteTask(id: number): Promise<void> {
     const result = await this.taskRepository.delete(id);
     
-    if(result.affected === 0){
+    if(result.affected){
       throw new NotFoundException(`Task with ID "${id}" not found`);
     }
   }
@@ -43,6 +44,7 @@ export class TasksService {
     const task = await this.getTaskById(id);
     task.status = status;
     await task.save();
+
     return task;
   }
 }
